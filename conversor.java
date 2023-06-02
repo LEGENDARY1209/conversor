@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Conversor{
+public class conversor{
 
     /**
      * @param args
@@ -21,7 +21,6 @@ public class Conversor{
                 case 1:
                     System.out.print("Digite a temperatura em graus Celsius: ");
                     double temperaturaCelsius = scanner.nextDouble();
-                    double Celsius;
                     double temperaturaFahrenheit = celsiusToFahrenheit (temperaturaCelsius);
                     System.out.printf("%.2f graus Celsius correspondem a %.2f graus Fahrenheit\n", temperaturaCelsius, temperaturaFahrenheit);
                     break;
